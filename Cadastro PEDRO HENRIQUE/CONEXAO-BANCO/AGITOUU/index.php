@@ -2,7 +2,7 @@
 require 'model/dao/conexao.php';
 require 'model/dao/UsuarioDAO.php';
 require 'model/dto/UsuarioDTO.php';
-require 'model/dao/conexao.php';
+require 'controller/UsuarioController.php';
 $msg = "";
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if(isset($_POST['test'])){
